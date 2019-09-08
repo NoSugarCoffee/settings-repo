@@ -22,19 +22,21 @@
       <mapping pattern="activity-dialogue-response" type="PLAIN_TEXT" />
       <mapping pattern="qu" type="PLAIN_TEXT" />
       <mapping pattern="activity-dialogue-dialogue" type="PLAIN_TEXT" />
-      <mapping pattern="activity-nlu-nlu-responsea1" type="PLAIN_TEXT" />
       <mapping pattern="activity-nlu-nlu-response1" type="PLAIN_TEXT" />
       <mapping pattern="nluResponse" type="PLAIN_TEXT" />
       <mapping pattern="activity-attention-attention-response" type="PLAIN_TEXT" />
+      <mapping pattern="activity-nlu-nlu-responsea1" type="PLAIN_TEXT" />
       <mapping pattern="store" type="PLAIN_TEXT" />
       <mapping pattern="buyerQuery1" type="PLAIN_TEXT" />
       <mapping pattern="contentApiServer.proto" type="PLAIN_TEXT" />
       <mapping pattern="hello" type="PLAIN_TEXT" />
+      <mapping ext="dll" type="PLAIN_TEXT" />
       <mapping ext="conf" type="PLAIN_TEXT" />
       <mapping ext="avsc" type="PLAIN_TEXT" />
       <mapping ext="avro" type="PLAIN_TEXT" />
       <mapping ext="xyz" type="PLAIN_TEXT" />
       <mapping ext="pb" type="PLAIN_TEXT" />
+      <removed_mapping ext="dll" type="UNKNOWN" />
     </extensionMap>
   </component>
 </application>
