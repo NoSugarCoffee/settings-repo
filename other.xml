@@ -1,0 +1,30 @@
+<application>
+  <component name="CodeStyleSchemesUIConfiguration">
+    <option name="RECENT_IMPORT_FILE_LOCATION" value="file:$USER_HOME$/prj/javaPrj/freshman-guide/coding-style/leyan.xml" />
+  </component>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="/usr/local/bin/node">
+      <version-cache version="12.14.1" last-modified="1578403060000" />
+    </local-interpreter>
+  </component>
+  <component name="PyTestFrameworkService">
+    <option name="SDK_TO_PYTEST">
+      <map>
+        <entry key="$USER_HOME$/prj/javaPrj/leyan-gitlab/venv/bin/python" value="true" />
+        <entry key="$USER_HOME$/prj/otherPrj/lain-cli/venv/bin/python" value="true" />
+        <entry key="$USER_HOME$/prj/otherPrj/lain-sdk/venv/bin/python" value="true" />
+        <entry key="/usr/local/bin/python3.7" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="RefactoringSettings">
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_PACKAGE" value="false" />
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_CLASS" value="false" />
+    <option name="RENAME_SEARCH_FOR_TEXT_FOR_PACKAGE" value="false" />
+    <option name="RENAME_SEARCH_FOR_TEXT_FOR_CLASS" value="false" />
+    <option name="MOVE_PREVIEW_USAGES" value="false" />
+    <option name="INTRODUCE_LOCAL_CREATE_FINALS" value="false" />
+    <option name="RENAME_INHERITORS" value="false" />
+    <option name="RENAME_TESTS" value="false" />
+  </component>
+</application>
