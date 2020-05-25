@@ -1,0 +1,24 @@
+// Copyright ${YEAR} Leyantech Ltd. All Rights Reserved.
+
+#parse("File Header.java") 
+syntax = "proto3";
+
+#set ($package = ${DIR_PATH.replace('/','.').split("main.proto.").get(1)})
+#set ($go_pak = ${DIR_PATH.split("main/proto/leyan_proto/").get(1)})
+package ${package};
+#if (${SERVICE_NAME} != "")
+
+import "leyan_proto/gaia/service_option.proto";
+#end
+
+option java_multiple_files = true;
+option java_package = "${JAVA_PACKAGE}";
+option go_package = "git.leyantech.com/leyan/leyan-proto-golang/${go_pak}/${NAME}";
+#if (${SERVICE_NAME} != "")
+
+service ${SERVICE_NAME} {
+  option (gaia.impl) = {
+    address: "consul://<app_name>.<proc_name>"
+  };
+}
+#end
